@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+        h1{
+            font-weight: 800;
+        }h2{
+            font-weight: 600;
+        }
+        button{
+            font-weight: 500;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Vishal Bank</h1>
+        <h2>Amount withdraw and deposit</h2>
+        <label for="">Enter your amount:</label>
+        <input type="number" id="number" value="0"><br><br>
+        <button onclick="Withdraw()" id="button1">Withdraw</button>
+        <button onclick="Deposit()" id="button2">Deposit</button>
+        <p id="amount">Current Amount: Rs. 1000.00</p>
+        <p id="note" style="color:red;"></p>
+        <div id="timer">
+
+        </div>
+    </center>
+</body>
+</html>
